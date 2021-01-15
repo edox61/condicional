@@ -5,6 +5,7 @@ const ConditionApp = () => {
 
   return (
     <div className="App">
+      {/* {new Date().toLocaleTimeString()} */}
       <button onClick={() => setCondition(!condition)}>Toggle</button>
       {/* { condition ? <h1>True</h1> : <h1>False</h1> } */}
       {condition && <h1>True</h1>}
